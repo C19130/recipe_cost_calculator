@@ -1,0 +1,25 @@
+#start of the loop
+
+# initialise loop so that it runs at least once
+shoplist = []
+ingredient = "true"
+
+list_num = 0
+
+while ingredient != "":
+  
+  if ingredient != "":
+    ingredient = input("Enter your Item to the List, or press enter when you have finished: ")
+
+    if ingredient == "":
+      break
+    
+    shoplist.append(ingredient)
+    list_num += 1
+    
+print()
+print("***  This is the list of ingredients needed:  ***")
+print()
+
+
+print("The first item is {}".format(shoplist[0]) , "This item weighs {} at ${}/{}g, for the recipe this costs ${}")
