@@ -1,6 +1,6 @@
 def int_check(question):
 
-  error = "Please Make sure you have ented a number"
+  error = "Please Make sure you have entered a number that is atleast 0"
 
   valid = False
   while not valid:
